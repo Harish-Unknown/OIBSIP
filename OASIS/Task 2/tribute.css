@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans: wght@200; 300;400&display-swap');
+
+* {
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    border: none;
+
+    border-radius: 0;
+
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur (20px);
+
+    margin: 0;
+}
+
+.navbar .navbar-brand {
+    font-size: 20px;
+
+    color: #F48484;
+
+    font-family: 'Work Sans',sans-serif
+    I
+}
+
+.head-box {
+    width: 100%;
+
+    height: 100vh;
+
+    background-image: url("messi.jpg");
+
+    background-blend-mode: overlay;
+
+    background-repeat: no-repeat;
+
+    background-size: 100% 1050px;
+
+    display: flex;
+
+    justify-content: center;
+    
+    align-items: center;
+    
+    flex-wrap: wrap;
+} 
+
+.head-box .heading{
+    width: 100%;
+
+    margin-top: 5%;
+    margin-left: 20px;
+}
+
+.head-box .heading h1{
+    font-size: 100px; 
+
+    color:#F48484;
+    
+    font-family: 'Work Sans',sans-serif;
+}
+
+.head-box .heading h3{
+    font-size: 50px;
+
+    color: #F48484;
+
+    font-family: 'Work Sans',sans-serif;
+}
+
+.head-box .heading h3 span{
+    color: #fff;
+
+    cursor: pointer;
+    
+    transition: all .2ms;
+}
+
+.head-box .heading h3 span:hover{
+    color: #F48484;
+
+    background-color: #fff;
+}
+
+.head-box .heading p{
+    width: 40%;
+    font-size: 16px;
+    
+    font-weight: 300;
+
+    color: #fff;
+
+    font-family: 'Work Sans',sans-serif;
+
+    text-indent: 70px;
+
+    line-height: 30px;
+
+    margin-top: 4%;
+}
+
+.container .row .col-sm-6{
+    height:500px;
+
+    display: flex;
+
+    flex-wrap: wrap; 
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+.container .row .col-sm-6 .center-block{
+    justify-content: center;
+
+    align-items: center;
+
+    display: flex;
+
+    flex-wrap: wrap;
+}
+
+.container .row .col-sm-6 .center-block h1{
+
+font-size: 40px;
+
+color: #f03535;
+
+font-family: 'Work Sans', sans-serif;
+
+font-weight: 400;
+
+text-align: center;
+}
+.container .row .col-sm-6 .center-block h3
+{
+color:#000;
+
+font-family: 'Work Sans', sans-serif;
+
+text-align: center; 
+
+font-weight: 400;
+}
+.container .row.col-sm-6 .center-block p
+{
+font-size: 16px;
+
+font-family: 'Work Sans', sans-serif;
+
+color: #000;
+
+text-align: justify;
+
+text-indent: 50px;
+
+font-weight: 400;
+
+letter-spacing: 1px;
+
+}
+
+footer .container-fluid{
+
+background-color: #f03535;
+
+}
+
+footer .container-fluid .container .row .col-sm-4
+{
+height: 100%;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+font-family: 'Work Sans', sans-serif;
+
+margin-top: 2%; 
+
+margin-bottom: 2%;
+}
+footer .container-fluid .container .row .col-sm-4 .btn
+{
+font-size: 20px; 
+
+color: #fff;
+
+font-family: 'Work Sans', sans-serif;
+
+background-color: #f03535; 
+
+font-weight: 300;
+
+transition: all .5s;
+}
+footer .container-fluid .container .row .col-sm-4 .btn:hover
+{
+color: #f03535;
+background-color: #fff;
+}
